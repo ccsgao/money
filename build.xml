@@ -15,7 +15,7 @@
  <property name="phpcpd"  value="/home/jira/.composer/vendor/bin/phpcpd"/>
  <property name="phpcs"   value="/home/jira/.composer/vendor/bin/phpcs"/>
  <property name="phpdox"  value="/home/jira/.composer/vendor/bin/phpdox"/>
- <property name="phploc"  value="/home/jira/.composer/vendor/bin/phploc"/>
+ <property name="phploc"  value="${basedir}/vendor/bin/phploc"/>
  <property name="phpmd"   value="/home/jira/.composer/vendor/bin/phpmd"/>
  <property name="phpunit" value="/home/jira/.composer/vendor/bin/phpunit"/> 
 
