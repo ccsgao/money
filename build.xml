@@ -11,13 +11,13 @@
 
 
  <!-- Use this when the tools are managed by Composer in ${basedir}/vendor/bin-->
- <property name="pdepend" value="/home/jira/.composer/vendor/bin/pdepend"/>
- <property name="phpcpd"  value="/home/jira/.composer/vendor/bin/phpcpd"/>
- <property name="phpcs"   value="/home/jira/.composer/vendor/bin/phpcs"/>
- <property name="phpdox"  value="/home/jira/.composer/vendor/bin/phpdox"/>
+ <property name="pdepend" value="pdepend"/>
+ <property name="phpcpd"  value="phpcpd"/>
+ <property name="phpcs"   value="phpcs"/>
+ <property name="phpdox"  value="phpdox"/>
  <property name="phploc"  value="phploc"/>
- <property name="phpmd"   value="/home/jira/.composer/vendor/bin/phpmd"/>
- <property name="phpunit" value="/home/jira/.composer/vendor/bin/phpunit"/> 
+ <property name="phpmd"   value="phpmd"/>
+ <property name="phpunit" value="phpunit"/> 
 
  <target name="full-build" depends="prepare,static-analysis,phpunit,phpdox,-check-failure" description="Performs static analysis, runs the tests, and generates project documentation"/>
 
